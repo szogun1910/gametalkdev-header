@@ -1,0 +1,10 @@
+en:
+  custom_header:
+    logo_alt_text: "Codey Logo"
+    about: "About"
+    projects: "Projects"
+    store: "Store"
+    blog: "Blog"
+    contact: "Contact"
+    search_placeholder: "Search ..."
+    dark_mode_button_text: "🌙"

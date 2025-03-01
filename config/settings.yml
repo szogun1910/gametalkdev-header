@@ -1,0 +1,65 @@
+# name: custom-header
+# about: Dodaje możliwość konfiguracji nagłówka w Discourse
+# version: 0.1
+# authors: Szogun
+
+settings:
+  - name: enable_custom_header
+    type: boolean
+    default: true
+    placeholder: "Włącz nagłówek"
+    description: "Czy włączyć niestandardowy nagłówek?"
+
+  - name: custom_header_logo_url
+    type: string
+    default: "http://gametalkdev.pl/images/discourse-logo-sketch.png"
+    placeholder: "URL do logo"
+    description: "Wprowadź URL logo wyświetlanego w nagłówku"
+
+  - name: header_background_color
+    type: string
+    default: "#f0f0f0"
+    placeholder: "Kolor tła nagłówka"
+    description: "Wybierz kolor tła nagłówka"
+
+  - name: header_text_color
+    type: string
+    default: "#333"
+    placeholder: "Kolor tekstu nagłówka"
+    description: "Wybierz kolor tekstu nagłówka"
+
+  - name: dark_mode_button_text
+    type: string
+    default: "🌙"
+    placeholder: "Tekst przycisku trybu ciemnego"
+    description: "Tekst wyświetlany na przycisku przełączania trybu ciemnego"
+
+  - name: custom_header_about_link
+    type: string
+    default: "/about"
+    placeholder: "Link do strony O nas"
+    description: "Link do strony O nas"
+
+  - name: custom_header_projects_link
+    type: string
+    default: "/projects"
+    placeholder: "Link do strony Realizacje"
+    description: "Link do strony Realizacje"
+
+  - name: custom_header_store_link
+    type: string
+    default: "/store"
+    placeholder: "Link do strony Sklep"
+    description: "Link do strony Sklep"
+
+  - name: custom_header_blog_link
+    type: string
+    default: "/blog"
+    placeholder: "Link do strony Blog"
+    description: "Link do strony Blog"
+
+  - name: custom_header_contact_link
+    type: string
+    default: "/contact"
+    placeholder: "Link do strony Kontakt"
+    description: "Link do strony Kontakt"

@@ -1,0 +1,10 @@
+pl:
+  custom_header:
+    logo_alt_text: "Logo Codey"
+    about: "O nas"
+    projects: "Realizacje"
+    store: "Sklep"
+    blog: "Blog"
+    contact: "Kontakt"
+    search_placeholder: "Szukaj ..."
+    dark_mode_button_text: "🌙"
