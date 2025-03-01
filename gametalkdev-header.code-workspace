@@ -4,5 +4,40 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"files.exclude": {
+			"**/.git": true,
+			"**/.DS_Store": true
+		},
+		"editor.tabSize": 2,
+		"editor.insertSpaces": true,
+		"editor.formatOnSave": true,
+		"files.associations": {
+			"*.yml": "yaml",
+			"*.rb": "ruby"
+		},
+		"files.encoding": "utf8",
+		"files.trimTrailingWhitespace": true,
+		"files.insertFinalNewline": true,
+		"[css]": {
+			"editor.defaultFormatter": "esbenp.prettier-vscode"
+		},
+		"[javascript]": {
+			"editor.defaultFormatter": "esbenp.prettier-vscode"
+		},
+		"[ruby]": {
+			"editor.tabSize": 2
+		},
+		"[yaml]": {
+			"editor.tabSize": 2
+		}
+	},
+	"extensions": {
+		"recommendations": [
+			"rebornix.ruby",
+			"esbenp.prettier-vscode",
+			"redhat.vscode-yaml",
+			"wingrunr21.vscode-ruby"
+		]
+	}
 }
