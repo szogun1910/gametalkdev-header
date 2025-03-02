@@ -3,6 +3,8 @@
 # version: 0.1
 # authors: Szogun
 
+register_asset "stylesheets/custom-header.css"
+
 register_site_setting :enable_custom_header, default: true, type: :boolean
 register_site_setting :custom_header_logo_url, default: "http://gametalkdev.pl/images/discourse-logo-sketch.png", type: :string
 register_site_setting :header_background_color, default: "#f0f0f0", type: :string
